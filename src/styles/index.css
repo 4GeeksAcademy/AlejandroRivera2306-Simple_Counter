@@ -10,3 +10,43 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+html{
+    font-size: 62.5%; 
+  }
+body{
+  background: rgb(91, 1, 236);
+}
+  .contenedor {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(2rem,1fr));
+  }
+  .numeros{
+    font-size: 6rem;
+  }
+  .botones-varios{
+    font-size: 5rem;
+    width: 27rem;
+    height: 10rem;
+    margin: 2rem 3rem;
+  }
+  .contenedor-boton{
+    max-width: 100%;
+    margin: 0 auto;
+
+  }
+
+ .numeros i{
+  font-size: 5rem;
+ }
+  .menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(2rem,1fr));
+    gap: 2rem;
+  }
+
+  
